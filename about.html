@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The 7th Scale Marketing Agency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    :root { --orange:#f7941d; --dark:#3e3e3e; }
+    body { font-family: system-ui, sans-serif; overflow-x:hidden; }
+    .bg-orange{background:var(--orange)}
+    .text-orange{color:var(--orange)}
+    .hero img{width:100%;height:75vh;object-fit:cover}
+    .why-box{background:var(--orange);color:#fff;border-radius:6px}
+    .nav-link.active {
+  color: #f7941d !important;
+  font-weight: 700;
+}
+
+    /* TEAM SECTION */
+.team-img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #e0e0e0;
+}
+
+/* Mobile behavior */
+@media (max-width: 768px) {
+  .team-member {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .team-img {
+    margin-bottom: 12px;
+  }
+}
+
+    .project-box{border:1px solid #ccc;height:90px;border-radius:6px;display:flex;align-items:center;justify-content:center}
+    .testimonial-card{background:#7a7a7a;color:#fff;border-radius:6px;padding:20px;min-height:260px}
+
+    .bg-orange { background-color: var(--orange); }
+    .text-orange { color: var(--orange); }
+
+    .btn-orange {
+  background: #ffffff;
+  color: #f26f29;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.btn-orange:hover {
+  background: #e67600;
+  color: #fff;
+}
+
+    footer{background:var(--dark);color:#fff}
+    footer a{color:#ccc;text-decoration:none}
+    footer a:hover{color:var(--orange)}
+    @media(max-width:768px){.hero img{height:50vh}}
+  </style>
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="bg-orange text-white py-2 small">
+  <div class="container d-flex justify-content-between flex-wrap gap-2">
+    <div>
+      <i class="bi bi-geo-alt"></i>
+      7TH SCALE MARKETING AGENCY, AHCN Towers, Cipm Avenue, Ikeja, Nigeria
+    </div>
+    <div class="d-flex gap-3">
+      <span><i class="bi bi-telephone"></i> +234 706 927 5316</span>
+      <span>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-linkedin"></i>
+        <i class="bi bi-instagram"></i>
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="images/7THSCA.png" height="40"></a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="nav" class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav gap-3">
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Home</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link active" href="about.html">About</a>
+
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="services.html">Services</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact</a>
+  </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <img src="images/smiley-people-chatting-business-meeting (1).jpg" alt="">
+</section>
+
+<!-- EDGE -->
+<section class="container my-5">
+  <h2 class="text-orange fw-bold">What is Our Edge?</h2>
+  <p>Not just another agency.<br>We’re your unfair advantage in a crowded market.</p>
+</section>
+
+<!-- WHY US -->
+<section class="container my-4">
+  <div class="row why-box p-4 align-items-center">
+    <div class="col-md-7">
+      <h4 class="fw-bold">Why Us:</h4>
+      <h6>The 7th Scale Agency</h6>
+      <ul>
+        <li>Proven growth across industries and markets</li>
+        <li>Data-powered campaigns that perform</li>
+        <li>Full-data driven approach</li>
+        <li>Creative ideas that move people and drive revenue</li>
+        <li>Clear communication, real partnership, no bullshit</li>
+      </ul>
+    </div>
+    <div class="col-md-5 text-center">
+      <img src="images/pngwing.com (40).png" class="img-fluid">
+    </div>
+  </div>
+</section>
+
+<!-- DARK CTA -->
+<section class="bg-dark text-white py-4">
+  <div class="container d-flex align-items-center gap-4 flex-column flex-md-row">
+    <img src="images/WJAU.png" height="90">
+    <div>
+      <h3 class="fw-bold text-orange">Scale Beyond Limits!</h3>
+      <p>We’re 7th Scale. Let’s make your brand the one everyone talks about.</p>
+    </div>
+  </div>
+</section>
+
+<!-- MEET OUR TEAM -->
+<section class="container my-5">
+  <h4 class="fw-bold mb-4">Meet our Team</h4>
+
+  <div class="row gy-4">
+
+    <!-- Team Member -->
+    <div class="col-md-6">
+      <div class="d-flex align-items-center team-member">
+        <img
+          src="assets/images/team-placeholder.png"
+          alt=""
+          class="team-img me-4"
+        >
+        <div>
+          <h6 class="mb-1 fw-bold">Jane Doe</h6>
+          <small class="text-muted">Team Lead</small>
+          <div class="mt-2 d-flex gap-3">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-whatsapp"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Member -->
+    <div class="col-md-6">
+      <div class="d-flex align-items-center team-member">
+        <img
+          src="images/WhatsApp Image 2026-01-15 at 3.19.11 PM.jpeg"
+          alt=""
+          class="team-img me-4"
+        >
+        <div>
+          <h6 class="mb-1 fw-bold">Onwenna Rita</h6>
+          <small class="text-muted">Brand strategist</small>
+          <div class="mt-2 d-flex gap-3">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-whatsapp"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Member -->
+    <div class="col-md-6">
+      <div class="d-flex align-items-center team-member">
+        <img
+          src="images/Grace.jpeg"
+          alt=""
+          class="team-img me-4"
+        >
+        <div>
+          <h6 class="mb-1 fw-bold">Eyo Grace</h6>
+          <small class="text-muted">Digital marketer</small>
+          <div class="mt-2 d-flex gap-3">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-whatsapp"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Member -->
+    <div class="col-md-6">
+      <div class="d-flex align-items-center team-member">
+        <img
+          src="images/JU.jpeg"
+          alt="Jane Doe"
+          class="team-img me-4"
+        >
+        <div>
+          <h6 class="mb-1 fw-bold">Edom Juliet Tochi</h6>
+          <small class="text-muted">Digital marketer</small>
+          <div class="mt-2 d-flex gap-3">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-whatsapp"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- PROJECTS (ALL 6) -->
+<section class="container my-5">
+  <h3 class="fw-bold mb-4">Our Projects</h3>
+  <div class="row g-4">
+    <div class="col-md-4"><div class="border p-4 text-center"><img src="images/AFR.png" class="img-fluid" alt=""></div></div>
+    <div class="col-md-4"><div class="border p-4 text-center"><img src="images/ADAMS.png" class="img-fluid" alt=""></div></div>
+    <div class="col-md-4"><div class="border p-4 text-center"><img src="images/DSHA.png" class="img-fluid" alt=""></div></div>
+    <div class="col-md-4"><div class="border p-4 text-center"><img src="images/APA.png" class="img-fluid" alt=""></div></div>
+    <div class="col-md-4"><div class="border p-4 text-center"><img src="images/NTV.png" class="img-fluid" alt=""></div></div>
+    <div class="col-md-4"><div class="border p-4 text-center"><img src="images/J.png" class="img-fluid" alt=""></div></div>
+  </div>
+</section>
+
+<!-- WHAT OUR CLIENTS SAY (IMAGES RESTORED) -->
+<section class="container my-5">
+  <h3 class="fw-bold mb-4">What our Clients Say</h3>
+
+  <div class="row g-4">
+    <!-- Testimonial 1 -->
+    <div class="col-md-4">
+      <div class="bg-secondary text-white p-4 rounded testimonial-card h-100 d-flex flex-column">
+        <div class="d-flex align-items-center mb-3">
+          <img src="images/Portrait_of_man_worker_on_white_isolated_background___Premium_AI-generated_PSD-removebg-preview.png" class="rounded-circle me-3" width="60" height="60" alt="">
+          <h6 class="mb-0 fw-bold">Engr. Christianna Abati</h6>
+        </div>
+        <p class="small mt-auto">
+          7th Scale has a way of moving your brand from obscurity to visibility within the shortest period.
+          Thanks to your wonderful team, my brand has upscaled
+        </p>
+      </div>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="col-md-4">
+      <div class="bg-secondary text-white p-4 rounded testimonial-card h-100 d-flex flex-column">
+        <div class="d-flex align-items-center mb-3">
+          <div class="rounded-circle bg-light text-dark d-flex align-items-center justify-content-center me-3"
+               style="width:60px;height:60px;">
+            <i class="bi bi-person-fill fs-3"></i>
+          </div>
+          <h6 class="mb-0 fw-bold">Afripay</h6>
+        </div>
+        <p class="small mt-auto">
+          We were stuck with mediocre results before partnering 7th Scale.
+          Their digital marketing strategies have boosted our brand awareness,
+          and the leads keep rolling in.
+        </p>
+      </div>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="col-md-4">
+      <div class="bg-secondary text-white p-4 rounded testimonial-card h-100 d-flex flex-column">
+        <div class="d-flex align-items-center mb-3">
+          <div class="rounded-circle bg-light text-dark d-flex align-items-center justify-content-center me-3"
+               style="width:60px;height:60px;">
+            <i class="bi bi-person-fill fs-3"></i>
+          </div>
+          <h6 class="mb-0 fw-bold">Taiwo Oke</h6>
+        </div>
+        <p class="small mt-auto">
+          It is a great experience doing business with you.
+          The professional approach and timely delivery is commendabe
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FINAL CTA -->
+<section class="bg-orange text-white py-5">
+  <div class="container d-flex justify-content-between align-items-center flex-column flex-md-row">
+    <div>
+      <h2 class="fw-bold">We engineer growth.</h2>
+      <p>We’re the bridge between data, creativity, strategy and execution.</p>
+      <a href="services.html" class="btn btn-orange px-4 py-2">Learn More</a>
+    </div>
+    <img src="images/asdfs.png" height="220">
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="pt-5 pb-4">
+  <div class="container">
+    <div class="row gy-4">
+
+      <div class="col-lg-4">
+        <h5 class="fw-bold">The 7th Scale Agency</h5>
+        <p>
+          We’re the bridge between data and creativity, strategy and execution.
+          Every brand has a unique growth path, and our job is to find it and make it unstoppable.
+        </p>
+      </div>
+
+      <div class="col-lg-4">
+        <h5 class="fw-bold">Contact</h5>
+        <p><i class="bi bi-telephone"></i> +234 706 927 5316</p>
+        <p><i class="bi bi-envelope"></i> 7thscaleagency@gmail.com</p>
+        <p><i class="bi bi-geo-alt"></i> AHCN Towers, Cipm Avenue, Ikeja, Nigeria</p>
+      </div>
+
+      <div class="col-lg-4">
+        <h5 class="fw-bold">Overview</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white">Home</a></li>
+          <li><a href="services.html" class="text-white">Services</a></li>
+          <li><a href="about.html" class="text-white">About</a></li>
+          <li><a href="contact.html" class="text-white">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The 7th Scale Marketing Agency</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --orange: #f7941d;
+      --dark-gray: #4a4a4a;
+      .nav-link.active {
+  color: #f7941d !important;
+  font-weight: 700;
+}
+
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      overflow-x: hidden;
+    }
+
+    .bg-orange { background-color: var(--orange); }
+    .text-orange { color: var(--orange); }
+
+    .btn-orange {
+  background: #ffffff;
+  color: #f26f29;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.btn-orange:hover {
+  background: #e67600;
+  color: #fff;
+}
+
+
+    /* HERO */
+    .hero-img {
+      width: 100%;
+      height: 80vh;
+      object-fit: cover;
+    }
+
+    /* CARDS */
+    .service-card {
+      border-radius: 8px;
+      transition: transform 0.2s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .testimonial-card {
+      min-height: 260px;
+    }
+
+    footer {
+      background: #3e3e3e;
+      color: #fff;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: var(--orange);
+    }
+
+    /* MOBILE */
+    @media (max-width: 768px) {
+      h1 { font-size: 1.8rem; }
+      h2 { font-size: 1.6rem; }
+      h3 { font-size: 1.4rem; }
+
+      .hero-img { height: 55vh; }
+
+      .top-bar .container {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="bg-orange text-white py-2 small top-bar">
+  <div class="container d-flex justify-content-between flex-wrap align-items-center">
+    <div>
+      <i class="bi bi-geo-alt"></i>
+      7TH SCALE MARKETING AGENCY, AHCN Towers, Cipm Avenue, Ikeja, Nigeria
+    </div>
+    <div class="d-flex gap-3 align-items-center">
+      <span><i class="bi bi-telephone"></i> +234 706 927 5316</span>
+      <span class="d-flex gap-2">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-linkedin"></i>
+        <i class="bi bi-instagram"></i>
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">
+      <img src="images/7THSCA.png" alt="7th Scale Logo" height="40">
+    </a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="mainNav" class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav gap-3">
+ <ul class="navbar-nav gap-3">
+  <li class="nav-item">
+    <a class="nav-link active" href="index.html">Home</a>
+
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="about.html">About</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="services.html">Services</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact</a>
+  </li>
+</ul>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section>
+  <img src="images/black-woman-points-screen-meeting2.png" class="hero-img" alt="">
+</section>
+
+<!-- INTRO -->
+<section class="container my-5">
+  <h1 class="text-orange fw-bold">Scale Beyond Limits!</h1>
+  <h5 class="fw-bold">Digital. PR. Growth.</h5>
+  <p>
+    Where your story begins. Where your brand becomes unstoppable.<br>
+    Let’s build your growth story
+  </p>
+</section>
+
+<!-- ORANGE BLOCK -->
+<section class="bg-orange text-white py-5">
+  <div class="container">
+    <h2 class="fw-bold">We don’t just market. We engineer growth.</h2>
+    <h6 class="mb-4">The 7th Scale Agency</h6>
+
+    <p>
+      We’re the bridge between data and creativity, strategy and execution.<br>
+      Every brand has a unique growth path, and our job is to find it and make it unstoppable.<br>
+      We bring every channel together to create a single, clear strategy that grows your brand.<br>
+      We thrive on market research, campaign testing, and performance optimization because in a world of noise,
+      only the brands that resonate win.
+    </p>
+
+    <p class="fw-bold fst-italic">
+      We’re 7th Scale. Let’s make your brand the one everyone talks about.
+    </p>
+
+    <a href="about.html" class="btn btn-orange px-4 py-2">Read About Us</a>
+  </div>
+</section>
+
+<!-- DARK CTA -->
+<section class="bg-dark text-white py-4">
+  <div class="container d-flex flex-column flex-md-row align-items-center gap-4">
+    <img src="images/WJAU.png" height="120" alt="">
+    <div>
+      <h3 class="fw-bold text-orange mb-1">Scale Beyond Limits!</h3>
+      <p class="mb-0">
+        We’re 7th Scale. Let’s make your brand the one everyone talks about.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES (ALL 8) -->
+<section class="container my-5" id="services">
+  <h3 class="fw-bold mb-4">Our Services</h3>
+  <div class="row g-4">
+    <div class="col-sm-6 col-lg-3"><div class="p-4 shadow-sm service-card h-100"><h6 class="text-orange">Digital Marketing</h6><p>We help you show up where your customers are and make it count.</p></div></div>
+    <div class="col-sm-6 col-lg-3"><div class="p-4 shadow-sm service-card h-100"><h6 class="text-orange">Media Buying</h6><p>We plan and purchase ad space for maximum ROI.</p></div></div>
+    <div class="col-sm-6 col-lg-3"><div class="p-4 shadow-sm service-card h-100"><h6 class="text-orange">Public Relations (PR)</h6><p>We position your brand as an authority.</p></div></div>
+    <div class="col-sm-6 col-lg-3"><div class="p-4 shadow-sm service-card h-100"><h6 class="text-orange">Traditional Media</h6><p>Radio, TV, and mass reach strategies.</p></div></div>
+    <div class="col-sm-6 col-lg-3"><div class="p-4 shadow-sm service-card h-100"><h6 class="text-orange">Strategy</h6><p>Data-driven planning for scalable growth.</p></div></div>
+    <div class="col-sm-6 col-lg-3"><div class="p-4 shadow-sm service-card h-100"><h6 class="text-orange">Events & Experiences</h6><p>Immersive brand activations.</p></div></div>
+    <div class="col-sm-6 col-lg-3"><div class="p-4 shadow-sm service-card h-100"><h6 class="text-orange">Omnichannel Marketing</h6><p>Unified customer experiences.</p></div></div>
+    <div class="col-sm-6 col-lg-3"><div class="p-4 shadow-sm service-card h-100"><h6 class="text-orange">Marketing Automation</h6><p>Systems that scale engagement.</p></div></div>
+  </div>
+</section>
+
+<!-- WHAT OUR CLIENTS SAY (IMAGES RESTORED) -->
+<section class="container my-5">
+  <h3 class="fw-bold mb-4">What our Clients Say</h3>
+
+  <div class="row g-4">
+    <!-- Testimonial 1 -->
+    <div class="col-md-4">
+      <div class="bg-secondary text-white p-4 rounded testimonial-card h-100 d-flex flex-column">
+        <div class="d-flex align-items-center mb-3">
+          <img src="images/Portrait_of_man_worker_on_white_isolated_background___Premium_AI-generated_PSD-removebg-preview.png" class="rounded-circle me-3" width="60" height="60" alt="">
+          <h6 class="mb-0 fw-bold">Engr. Christianna Abati</h6>
+        </div>
+        <p class="small mt-auto">
+          7th Scale has a way of moving your brand from obscurity to visibility within the shortest period.
+          Thanks to your wonderful team, my brand has upscaled
+        </p>
+      </div>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="col-md-4">
+      <div class="bg-secondary text-white p-4 rounded testimonial-card h-100 d-flex flex-column">
+        <div class="d-flex align-items-center mb-3">
+          <div class="rounded-circle bg-light text-dark d-flex align-items-center justify-content-center me-3"
+               style="width:60px;height:60px;">
+            <i class="bi bi-person-fill fs-3"></i>
+          </div>
+          <h6 class="mb-0 fw-bold">Afripay</h6>
+        </div>
+        <p class="small mt-auto">
+          We were stuck with mediocre results before partnering 7th Scale.
+          Their digital marketing strategies have boosted our brand awareness,
+          and the leads keep rolling in.
+        </p>
+      </div>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="col-md-4">
+      <div class="bg-secondary text-white p-4 rounded testimonial-card h-100 d-flex flex-column">
+        <div class="d-flex align-items-center mb-3">
+          <div class="rounded-circle bg-light text-dark d-flex align-items-center justify-content-center me-3"
+               style="width:60px;height:60px;">
+            <i class="bi bi-person-fill fs-3"></i>
+          </div>
+          <h6 class="mb-0 fw-bold">Taiwo Oke</h6>
+        </div>
+        <p class="small mt-auto">
+          It is a great experience doing business with you.
+          The professional approach and timely delivery is commendabe
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS (ALL 6) -->
+<section class="container my-5">
+  <h3 class="fw-bold mb-4">Our Projects</h3>
+  <div class="row g-4">
+    <div class="col-md-4"><div class="border p-4 text-center"><img src="images/AFR.png" class="img-fluid" alt=""></div></div>
+    <div class="col-md-4"><div class="border p-4 text-center"><img src="images/ADAMS.png" class="img-fluid" alt=""></div></div>
+    <div class="col-md-4"><div class="border p-4 text-center"><img src="images/DSHA.png" class="img-fluid" alt=""></div></div>
+    <div class="col-md-4"><div class="border p-4 text-center"><img src="images/APA.png" class="img-fluid" alt=""></div></div>
+    <div class="col-md-4"><div class="border p-4 text-center"><img src="images/NTV.png" class="img-fluid" alt=""></div></div>
+    <div class="col-md-4"><div class="border p-4 text-center"><img src="images/J.png" class="img-fluid" alt=""></div></div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="bg-orange text-white py-5">
+  <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-4">
+    <div>
+      <h2 class="fw-bold">We engineer growth.</h2>
+      <p>We’re the bridge between data, creativity, strategy and execution.</p>
+      <a href="about.html" class="btn btn-orange px-4 py-2">Learn More</a>
+    </div>
+    <img src="images/asdfs.png" height="220" alt="">
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="pt-5 pb-4">
+  <div class="container">
+    <div class="row gy-4">
+
+      <div class="col-lg-4">
+        <h5 class="fw-bold">The 7th Scale Agency</h5>
+        <p>
+          We’re the bridge between data and creativity, strategy and execution.
+          Every brand has a unique growth path, and our job is to find it and make it unstoppable.
+        </p>
+      </div>
+
+      <div class="col-lg-4">
+        <h5 class="fw-bold">Contact</h5>
+        <p><i class="bi bi-telephone"></i> +234 706 927 5316</p>
+        <p><i class="bi bi-envelope"></i> 7thscaleagency@gmail.com</p>
+        <p><i class="bi bi-geo-alt"></i> AHCN Towers, Cipm Avenue, Ikeja, Nigeria</p>
+      </div>
+
+      <div class="col-lg-4">
+        <h5 class="fw-bold">Overview</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white">Home</a></li>
+          <li><a href="services.html" class="text-white">Services</a></li>
+          <li><a href="about.html" class="text-white">About</a></li>
+          <li><a href="contact.html" class="text-white">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
