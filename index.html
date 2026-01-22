@@ -13,13 +13,12 @@
   <style>
     :root {
       --orange: #f7941d;
-      --dark-gray: #4a4a4a;
+      --dark-gray: #4a4a4a;}
       .nav-link.active {
   color: #f7941d !important;
   font-weight: 700;
 }
 
-    }
 
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -95,27 +94,8 @@
 
 <body>
 
-<!-- TOP BAR -->
-<div class="bg-orange text-white py-2 small top-bar">
-  <div class="container d-flex justify-content-between flex-wrap align-items-center">
-    <div>
-      <i class="bi bi-geo-alt"></i>
-      7TH SCALE MARKETING AGENCY, AHCN Towers, Cipm Avenue, Ikeja, Nigeria
-    </div>
-    <div class="d-flex gap-3 align-items-center">
-      <span><i class="bi bi-telephone"></i> +234 706 927 5316</span>
-      <span class="d-flex gap-2">
-        <i class="bi bi-facebook"></i>
-        <i class="bi bi-twitter"></i>
-        <i class="bi bi-linkedin"></i>
-        <i class="bi bi-instagram"></i>
-      </span>
-    </div>
-  </div>
-</div>
-
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
   <div class="container">
     <a class="navbar-brand fw-bold" href="#">
       <img src="images/7THSCA.png" alt="7th Scale Logo" height="40">
@@ -139,7 +119,7 @@
   <li class="nav-item">
     <a class="nav-link" href="services.html">Services</a>
   </li>
-
+<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
   <li class="nav-item">
     <a class="nav-link" href="contact.html">Contact</a>
   </li>
@@ -215,61 +195,80 @@
   </div>
 </section>
 
-<!-- WHAT OUR CLIENTS SAY (IMAGES RESTORED) -->
+<!-- BLOG PREVIEW -->
 <section class="container my-5">
-  <h3 class="fw-bold mb-4">What our Clients Say</h3>
+  <h3 class="fw-bold mb-4">Our Thoughts</h3>
 
   <div class="row g-4">
-    <!-- Testimonial 1 -->
+    <!-- Blog 1 -->
     <div class="col-md-4">
-      <div class="bg-secondary text-white p-4 rounded testimonial-card h-100 d-flex flex-column">
-        <div class="d-flex align-items-center mb-3">
-          <img src="images/Portrait_of_man_worker_on_white_isolated_background___Premium_AI-generated_PSD-removebg-preview.png" class="rounded-circle me-3" width="60" height="60" alt="">
-          <h6 class="mb-0 fw-bold">Engr. Christianna Abati</h6>
-        </div>
-        <p class="small mt-auto">
-          7th Scale has a way of moving your brand from obscurity to visibility within the shortest period.
-          Thanks to your wonderful team, my brand has upscaled
+      <div class="p-4 h-100 d-flex flex-column bg-dark text-white rounded">
+        <span class="text-orange fw-bold small mb-2">Growth & Strategy</span>
+
+        <h6 class="fw-bold">
+          How Brands Scale Beyond Limits
+        </h6>
+
+        <p class="mt-2 flex-grow-1">
+          Scaling a brand isn’t about luck. It’s about systems, clarity,
+          and executing the right strategy consistently.
         </p>
+
+        <a href="blog.html" class="btn btn-outline-dark mt-3 align-self-start">
+          Read More →
+        </a>
       </div>
     </div>
 
-    <!-- Testimonial 2 -->
+    <!-- Blog 2 -->
     <div class="col-md-4">
-      <div class="bg-secondary text-white p-4 rounded testimonial-card h-100 d-flex flex-column">
-        <div class="d-flex align-items-center mb-3">
-          <div class="rounded-circle bg-light text-dark d-flex align-items-center justify-content-center me-3"
-               style="width:60px;height:60px;">
-            <i class="bi bi-person-fill fs-3"></i>
-          </div>
-          <h6 class="mb-0 fw-bold">Afripay</h6>
-        </div>
-        <p class="small mt-auto">
-          We were stuck with mediocre results before partnering 7th Scale.
-          Their digital marketing strategies have boosted our brand awareness,
-          and the leads keep rolling in.
+      <div class="p-4 h-100 d-flex flex-column bg-dark text-white rounded">
+        <span class="text-orange fw-bold small mb-2">Digital Marketing</span>
+
+        <h6 class="fw-bold">
+          The Digital Growth System That Actually Works
+        </h6>
+
+        <p class="mt-2 flex-grow-1">
+          Discover how social media, paid ads, funnels, and automation
+          work together to drive predictable growth.
         </p>
+
+        <a href="blog.html" class="btn btn-outline-dark mt-3 align-self-start">
+          Read More →
+        </a>
       </div>
     </div>
 
-    <!-- Testimonial 3 -->
+    <!-- Blog 3 -->
     <div class="col-md-4">
-      <div class="bg-secondary text-white p-4 rounded testimonial-card h-100 d-flex flex-column">
-        <div class="d-flex align-items-center mb-3">
-          <div class="rounded-circle bg-light text-dark d-flex align-items-center justify-content-center me-3"
-               style="width:60px;height:60px;">
-            <i class="bi bi-person-fill fs-3"></i>
-          </div>
-          <h6 class="mb-0 fw-bold">Taiwo Oke</h6>
-        </div>
-        <p class="small mt-auto">
-          It is a great experience doing business with you.
-          The professional approach and timely delivery is commendabe
+      <div class="p-4 h-100 d-flex flex-column bg-dark text-white rounded">
+        <span class="text-orange fw-bold small mb-2">Branding</span>
+
+        <h6 class="fw-bold">
+          Why Most Marketing Fails (And How to Fix It)
+        </h6>
+
+        <p class="mt-2 flex-grow-1">
+          Many brands spend money on marketing but see no results.
+          Here’s why—and how to build campaigns that convert.
         </p>
+
+        <a href="blog.html" class="btn btn-outline-dark mt-3 align-self-start">
+          Read More →
+        </a>
       </div>
     </div>
   </div>
+
+  <!-- VIEW ALL BLOG -->
+  <div class="text-center mt-5">
+    <a href="blog.html" class="btn btn-dark px-4">
+      View All Articles
+    </a>
+  </div>
 </section>
+
 
 <!-- PROJECTS (ALL 6) -->
 <section class="container my-5">
@@ -317,12 +316,13 @@
       </div>
 
       <div class="col-lg-4">
-        <h5 class="fw-bold">Overview</h5>
+        <h5 class="fw-bold">Quick Links</h5>
         <ul class="list-unstyled">
-          <li><a href="index.html" class="text-white">Home</a></li>
-          <li><a href="services.html" class="text-white">Services</a></li>
-          <li><a href="about.html" class="text-white">About</a></li>
-          <li><a href="contact.html" class="text-white">Contact</a></li>
+          <li><a href="index.html" class="footer-link">Home</a></li>
+          <li><a href="about.html" class="footer-link">About</a></li>
+          <li><a href="services.html" class="footer-link">Services</a></li>
+          <li><a href="blog.html" class="footer-link">Blog</a></li>
+          <li><a href="contact.html" class="footer-link">Contact</a></li>
         </ul>
       </div>
 
